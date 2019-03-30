@@ -11,10 +11,20 @@ h1 {
 
 p {
   font-family: "Courier New";
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #doge-image img {
   height: 140px;
   margin-top: 20px;
 }
+
+#stream {
+  color: blue;
+  text-align: left;
+}
+
+#stream .title1{
+  color: rgb(255, 0, 157);
+}
+

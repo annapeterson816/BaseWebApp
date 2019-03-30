@@ -8,18 +8,40 @@
   <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
-    <h1>YOYO web apps are so so so cool</h1>
+    <h1>Welcome!</h1>
   </div>
 
   <p id="demo">
-    This is me testing out a lil html file
+    <small>
+      <small>
+    Here is a place where you can write a blog post and publish it
+    </small>
+  </small>
   </p>
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
+  <p>
+    Before you can post, you will need to login to your Google Account.
+  </p>
+  <button class="btn btn-default" type="button" onclick="toggleSignIn()" id=login-button>
+      Login to google
+    </button>
+
+  <form>
+    Name:<br>
+    <input type = "text" id= "name"><br>
+    Blog Title: <br>
+    <input type = "text" id= "title"><br>
+    Blog Text: <br>
+    <input type = "text" id= "text"><br>
+  </form>
+
+
+  <button class="btn btn-default" type="button" onclick="handleMessageFormSubmit()">
+    Post!
   </button>
 
-  <div id="doge-image"/>
+  <div id="stream"> </div>
+
 
 </body>
 
